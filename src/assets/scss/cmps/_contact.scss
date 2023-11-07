@@ -1,0 +1,62 @@
+.contact {
+    height: 100vh;
+    background-color: $clr4;
+    scroll-snap-align: start;
+    padding-block: 150px 300px;
+    scroll-snap-stop: always;
+
+    h2 {
+        text-align: center;
+        padding-bottom: 2rem;
+        color: $clr1;
+    }
+
+    .subtitle {
+        color: $clr3;
+        padding-bottom: 3rem;
+        text-align: center;
+    }
+
+    .contact-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .contact-info {
+            width: 70%;
+            padding-right: 300px;
+            display: flex;
+            justify-content: space-between;
+
+            .info {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                img {
+                    height: 40px;
+                    width: 40px;
+                    margin-bottom: 1.5rem;
+
+                }
+
+                a {
+                    font-family: Montserrat-Medium, sans-serif;
+                    padding-left: 1rem;
+                    font-size: 1.125rem;
+                    text-decoration: none;
+                    color: $clr3;
+
+                    &:hover {
+                        color: $clr2;
+                    }
+                }
+
+                &.phone,
+                &.email{
+                    padding-bottom: 5rem;
+                }
+            }
+        }
+    }
+}

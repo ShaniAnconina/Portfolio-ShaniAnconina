@@ -1,0 +1,22 @@
+.project-index {
+    height: 100vh;
+    background-image: url("../../img/1.png");
+    scroll-snap-align: start;
+    padding-block: 150px 300px;
+    scroll-snap-stop: always;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+
+    h2 {
+        text-align: center;
+        padding-bottom: 2rem;
+        color: $clr1;
+    }
+    .subtitle {
+        color: $clr3;
+        padding-bottom: 3rem;
+        text-align: center;
+    }
+}

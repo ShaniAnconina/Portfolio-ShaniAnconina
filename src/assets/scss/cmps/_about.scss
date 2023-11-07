@@ -1,0 +1,71 @@
+.about {
+    height: 100vh;
+    background-color: $clr4;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    padding-block: 150px 300px;
+
+    h2 {
+        text-align: center;
+        padding-bottom: 2rem;
+        color: $clr1;
+    }
+
+    .subtitle {
+        color: $clr3;
+        padding-bottom: 3rem;
+        text-align: center;
+    }
+
+    .about-container {
+        color: $clr3;
+        display: flex;
+        flex-direction: row;
+
+        .me,
+        .skills {
+            width: 50%;
+
+            h3 {
+                color: $clr1;
+                padding-bottom: 1rem;
+
+            }
+
+            .dev-skills {
+                padding-bottom: 2rem;
+                font-size: 1rem;
+
+                .skill {
+                    display: inline-block;
+                    background-color: $clr5;
+                    font-family: Montserrat-Medium, sans-serif;
+                    padding: 0.7rem 1.2rem;
+                    margin: 0 10px 10px 0;
+                    border-radius: 2px;
+
+                    &:hover {
+                        color: $clr2;
+                    }
+                }
+            }
+        }
+
+        .me {
+            padding-right: 4rem;
+
+            p {
+                text-align: justify;
+            }
+
+            button {
+                margin-top: 2rem;
+            }
+        }
+
+        .skills {
+            padding-left: 4rem;
+        }
+
+    }
+}

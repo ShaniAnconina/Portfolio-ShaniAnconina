@@ -1,0 +1,18 @@
+.main-layout {
+    // display: grid;
+    // grid-template-columns: 1fr;
+    display: block;
+    
+    @media (min-width: 700px) {
+        display: grid;
+        grid-template-columns: 200px 1fr 200px;
+
+        >* {
+            grid-column: 2;
+        }
+    
+        >*.full {
+            grid-column: 1 / -1;
+        }
+    }
+}

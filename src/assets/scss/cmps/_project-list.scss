@@ -1,0 +1,58 @@
+.project-list.carousel-container {
+  width: 80%;
+  margin: 0 auto;
+
+  ul.slick-dots {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    height: 30px;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+
+    li {
+      width: 30px;
+
+
+      button {
+        width: 10px;
+        height: 10px;
+        padding: 0;
+        color: transparent;
+        background-color: $clr3;
+      }
+
+      &.slick-active,
+      &:hover {
+        button {
+          background-color: $clr2;
+        }
+      }
+    }
+  }
+
+  .slick-list{
+    overflow: hidden;
+    .slick-slide {
+      padding: 10px;
+      display: inline-block;
+    }
+  }
+
+  .card {
+    background-color: $clr0;
+    // border: 1px solid #ddd;
+    box-shadow: 2px 5px 5px 0 rgba(0, 0, 0, 0.119);
+
+    border: none;
+    border-radius: 2px;
+    padding: 20px;
+    text-align: center;
+    cursor: grab;
+
+    &:active {
+      cursor: grabbing;
+    }
+  }
+}

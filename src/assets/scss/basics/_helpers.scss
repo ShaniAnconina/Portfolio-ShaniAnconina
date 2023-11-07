@@ -1,0 +1,40 @@
+.flex {
+    display: flex;
+
+    &.column {
+        flex-direction: column;
+    }
+
+    &.justify-center {
+        justify-content: center;
+    }
+
+    &.align-center {
+        align-items: center;
+    }
+
+    &.space-between {
+        justify-content: space-between;
+    }
+
+    &.space-around {
+        justify-content: space-around;
+    }
+}
+
+.grid {
+    display: grid;
+}
+
+.max-width-container {
+    max-width: 100%;
+}
+
+.none-list-style {
+    list-style: none;
+    padding: 0;
+}
+
+.bold {
+    font-family: Macan-Bold
+}

@@ -1,0 +1,17 @@
+.main-banner {
+    height: 100vh;
+    padding: 350px 0 300px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../img/1.png");
+    scroll-snap-align: start;
+    align-items: center;
+    color: $clr1;
+    scroll-snap-stop: always;
+
+    p {
+        font-size: 1.4rem;
+        padding: 2.5rem 0;
+    }
+}

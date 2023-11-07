@@ -1,0 +1,24 @@
+/* Setup */
+@import 'setup/typography';
+@import 'setup/variables';
+// @import 'setup/mixins';
+// @import 'setup/functions';
+
+/* Basics */
+@import 'basics/layouts';
+@import 'basics/base';
+@import 'basics/helpers';
+
+
+/* Pages */
+@import 'pages/home-page';
+
+/* Cmps */
+@import 'cmps/app-header';
+@import 'cmps/app-footer';
+@import 'cmps/main-banner';
+@import 'cmps/about';
+@import 'cmps/project-index';
+@import 'cmps/project-list';
+@import 'cmps/contact';
+

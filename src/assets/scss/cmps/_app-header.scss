@@ -1,0 +1,58 @@
+.app-header {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-block: 1rem;
+
+        .logo {
+            display: flex;
+            align-items: center;
+
+            img {
+                height: 55px;
+                width: 55px;
+                border-radius: 100%;
+                margin-right: 15px;
+            }
+
+            span {
+                font-family: Montserrat-Bold, sans-serif;
+                text-transform: uppercase;
+                letter-spacing: 0.1rem;
+                color: $clr3;
+                transition: 0.3s color;
+
+                &:hover {
+                    color: $clr2;
+                }
+            }
+        }
+
+        .nav {
+            a button {
+                padding: 0 1.5rem;
+                text-transform: uppercase;
+                background-color: transparent;
+                border: none;
+                color: $clr3;
+                width: auto;
+                box-shadow: none;
+                transition: 0.3s color;
+
+                &:hover {
+                    transform: none;
+                    color: $clr2;
+                }
+            }
+
+        }
+    }
+}
