@@ -8,6 +8,7 @@ export function App() {
   return (
     <div className="app main-layout full">
       <AppHeader />
+      <p>lalalala</p>
       <HomePage />
       {/* <AppFooter /> */}
     </div>
