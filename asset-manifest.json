@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ShaniAnconina/Portfolio-ShaniAnconina/static/css/main.e71fc916.css",
-    "main.js": "/ShaniAnconina/Portfolio-ShaniAnconina/static/js/main.873fdbb5.js",
-    "static/media/1.png": "/ShaniAnconina/Portfolio-ShaniAnconina/static/media/1.0eaa735596675219da56.png",
-    "static/media/shani.jpg": "/ShaniAnconina/Portfolio-ShaniAnconina/static/media/shani.cd2c6b95ef3179b54e10.jpg",
-    "static/media/Montserrat-Medium.ttf": "/ShaniAnconina/Portfolio-ShaniAnconina/static/media/Montserrat-Medium.c86e3b9010ff63c99166.ttf",
-    "static/media/Montserrat-Bold.ttf": "/ShaniAnconina/Portfolio-ShaniAnconina/static/media/Montserrat-Bold.2c155811b35513d5beaa.ttf",
-    "static/media/Montserrat-Regular.ttf": "/ShaniAnconina/Portfolio-ShaniAnconina/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
-    "static/media/shani-contact.png": "/ShaniAnconina/Portfolio-ShaniAnconina/static/media/shani-contact.8f54aa3febf4389d891c.png",
-    "index.html": "/ShaniAnconina/Portfolio-ShaniAnconina/index.html",
-    "main.e71fc916.css.map": "/ShaniAnconina/Portfolio-ShaniAnconina/static/css/main.e71fc916.css.map",
-    "main.873fdbb5.js.map": "/ShaniAnconina/Portfolio-ShaniAnconina/static/js/main.873fdbb5.js.map"
+    "main.css": "/Portfolio-ShaniAnconina/static/css/main.8219e522.css",
+    "main.js": "/Portfolio-ShaniAnconina/static/js/main.2df64dd6.js",
+    "static/media/1.png": "/Portfolio-ShaniAnconina/static/media/1.0eaa735596675219da56.png",
+    "static/media/shani.jpg": "/Portfolio-ShaniAnconina/static/media/shani.cd2c6b95ef3179b54e10.jpg",
+    "static/media/Montserrat-Medium.ttf": "/Portfolio-ShaniAnconina/static/media/Montserrat-Medium.c86e3b9010ff63c99166.ttf",
+    "static/media/Montserrat-Bold.ttf": "/Portfolio-ShaniAnconina/static/media/Montserrat-Bold.2c155811b35513d5beaa.ttf",
+    "static/media/Montserrat-Regular.ttf": "/Portfolio-ShaniAnconina/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
+    "static/media/shani-contact.png": "/Portfolio-ShaniAnconina/static/media/shani-contact.8f54aa3febf4389d891c.png",
+    "index.html": "/Portfolio-ShaniAnconina/index.html",
+    "main.8219e522.css.map": "/Portfolio-ShaniAnconina/static/css/main.8219e522.css.map",
+    "main.2df64dd6.js.map": "/Portfolio-ShaniAnconina/static/js/main.2df64dd6.js.map"
   },
   "entrypoints": [
-    "static/css/main.e71fc916.css",
-    "static/js/main.873fdbb5.js"
+    "static/css/main.8219e522.css",
+    "static/js/main.2df64dd6.js"
   ]
 }
